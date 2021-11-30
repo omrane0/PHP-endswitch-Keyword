@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+class MyClass {
+  public function hello() {
+    echo "Hello World!";
+  }
+}
+
+class AnotherClass extends MyClass {
+}
+
+$obj = new AnotherClass();
+$obj->hello();
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+Hello World!
